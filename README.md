@@ -131,5 +131,12 @@ Ce module appliquera des modèles d'apprentissage profond pour améliorer la cla
 - Versionning : Git pour la gestion du code source.
 - Outils de gestion de projet : Trello, Jira ou Asana pour organiser le travail en équipe.
 
+ 
+## **H. Documents et Ressources**  
+- 📄 [Rapport du projet](LIEN_VERS_LE_RAPPORT)  
+- 📊 [Présentation PowerPoint](LIEN_VERS_LE_PPT)  
+
+
+
 
 
