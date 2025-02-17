@@ -88,48 +88,48 @@ Ce module appliquera des modèles d'apprentissage profond pour améliorer la cla
 - la librairie D3.js pour la création des visualisations.
 
 #### D. Exigences fonctionnelles
-● Gestion des données :
-○ Importation de données massives à partir de fichiers CSV, bases de données SQL/NoSQL, ou sources en ligne.
-○ Prétraitement et nettoyage des données (ETL– Extract, Transform, Load).
-○ Stockage distribué des données avec Hadoop ou Spark.
-● Module d’ingénierie des connaissances :
-○ Extraction de faits et concepts à partir de textes ou bases de données.
-○ Utilisation d'ontologies, de réseaux sémantiques ou de graphes de connaissances pour structurer et interroger ces informations.
+- Gestion des données :
+- Importation de données massives à partir de fichiers CSV, bases de données SQL/NoSQL, ou sources en ligne.
+- Prétraitement et nettoyage des données (ETL– Extract, Transform, Load).
+- Stockage distribué des données avec Hadoop ou Spark.
+- Module d’ingénierie des connaissances :
+- Extraction de faits et concepts à partir de textes ou bases de données.
+- Utilisation d'ontologies, de réseaux sémantiques ou de graphes de connaissances pour structurer et interroger ces informations.
 ● Deep learning :
-○ Mise en place de modèles d’apprentissage profond (CNN, RNN, LSTM, GAN, etc.) pour des tâches spécifiques (classification, détection d’anomalies, etc.).
-○ Évaluation des performances des modèles à travers des métriques pertinentes (accuracy, F1-score, etc.).
-● Technologies JS (interface web) :
-○ Développement d'une interface utilisateur pour interagir avec les résultats du modèle (visualisation des prédictions, soumission de nouvelles données, etc.).
-○ Intégration avec l'API backend pour recevoir les résultats des analyses en temps réel.
+- Mise en place de modèles d’apprentissage profond (CNN, RNN, LSTM, GAN, etc.) pour des tâches spécifiques (classification, détection d’anomalies, etc.).
+- Évaluation des performances des modèles à travers des métriques pertinentes (accuracy, F1-score, etc.).
+- Technologies JS (interface web) :
+- Développement d'une interface utilisateur pour interagir avec les résultats du modèle (visualisation des prédictions, soumission de nouvelles données, etc.).
+- Intégration avec l'API backend pour recevoir les résultats des analyses en temps réel.
 
 #### E. Exigences non fonctionnelles
-● Scalabilité : Le système doit être capable de gérer une grande quantité de données et de demandes en parallèle.
-● Performance : Les traitements doivent être optimisés pour minimiser les temps de réponse, particulièrement pour les tâches de deep learning.
-● Sécurité : Garantir la protection des données traitées.
-● Maintenabilité : Le code doit être structuré et documenté pour faciliter les évolutions futures et le travail en équipe.
+- Scalabilité : Le système doit être capable de gérer une grande quantité de données et de demandes en parallèle.
+- Performance : Les traitements doivent être optimisés pour minimiser les temps de réponse, particulièrement pour les tâches de deep learning.
+- Sécurité : Garantir la protection des données traitées.
+- Maintenabilité : Le code doit être structuré et documenté pour faciliter les évolutions futures et le travail en équipe.
 
 
 
 #### G. Planning du projet
-● Semaine 1 : Définition du cas d’usage spécifique et analyse des besoins.
-● Semaine 2 : Collecte des données et prétraitement (ETL).
-● Semaine 3-4 : Développement du module de deep learning et entraînement des modèles.
-● Semaine 4-5 : Développement du système d’ingénierie des connaissances.
-● Semaine 6 : Développement du front-end en technologies JS.
-● Semaine 7 : Tests, intégration, et optimisation.
-● Semaine 8 : Finalisation des livrables et présentation finale.
+- Semaine 1 : Définition du cas d’usage spécifique et analyse des besoins.
+- Semaine 2 : Collecte des données et prétraitement (ETL).
+- Semaine 3-4 : Développement du module de deep learning et entraînement des modèles.
+- Semaine 4-5 : Développement du système d’ingénierie des connaissances.
+- Semaine 6 : Développement du front-end en technologies JS.
+- Semaine 7 : Tests, intégration, et optimisation.
+- Semaine 8 : Finalisation des livrables et présentation finale.
 
 
 #### H. Compétences et outils clés à mobiliser
-● Big data : Compétences en manipulation et traitement de données massives avec Spark Streaming (ou équivalents) et KAFKA.
-● Deep learning : Maîtrise des frameworks comme TensorFlow, PyTorch pour la création et l'entraînement de modèles d'apprentissage profond.
-● Ingénierie des connaissances : Utilisation d’ontologies, de graphes de connaissances et de techniques NLP.
-● JavaScript : Développement web full stack avec Node.js pour le back-end et React, Vue.js ou Angular pour le front-end.
-● Langages : Python (pour le deep learning et big data), JavaScript (Node.js, React/Vue.js/Angular pour l’interface utilisateur).
-● Frameworks IA : TensorFlow, Keras, PyTorch.
-● Big data : Hadoop, Apache Spark, Cassandra ou MongoDB (selon les besoins).
-● Versionning : Git pour la gestion du code source.
-● Outils de gestion de projet : Trello, Jira ou Asana pour organiser le travail en équipe.
+- Big data : Compétences en manipulation et traitement de données massives avec Spark Streaming (ou équivalents) et KAFKA.
+- Deep learning : Maîtrise des frameworks comme TensorFlow, PyTorch pour la création et l'entraînement de modèles d'apprentissage profond.
+- Ingénierie des connaissances : Utilisation d’ontologies, de graphes de connaissances et de techniques NLP.
+- JavaScript : Développement web full stack avec Node.js pour le back-end et React, Vue.js ou Angular pour le front-end.
+* Langages : Python (pour le deep learning et big data), JavaScript (Node.js, React/Vue.js/Angular pour l’interface utilisateur).
+- Frameworks IA : TensorFlow, Keras, PyTorch.
+- Big data : Hadoop, Apache Spark, Cassandra ou MongoDB (selon les besoins).
+- Versionning : Git pour la gestion du code source.
+- Outils de gestion de projet : Trello, Jira ou Asana pour organiser le travail en équipe.
 
 
 
