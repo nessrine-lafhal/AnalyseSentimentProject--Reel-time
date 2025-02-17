@@ -134,7 +134,7 @@ Ce module appliquera des modèles d'apprentissage profond pour améliorer la cla
  
 ## **H. Documents et Ressources**  
 - 📄 [Rapport du projet](https://github.com/nessrine-lafhal/AnalyseSentimentProject--Reel-time--twitter/blob/main/Analyse_des_sentiments.pdf)  
-- 📊 [Présentation PowerPoint](LIEN_VERS_LE_PPT)  
+- 📊 [Présentation PowerPoint](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fnessrine-lafhal%2FAnalyseSentimentProject--Reel-time--twitter%2Frefs%2Fheads%2Fmain%2FThe%2520Future%2520of%2520the%2520Arctic%2520(1).pptx&wdOrigin=BROWSELINK)  
 
 
 
