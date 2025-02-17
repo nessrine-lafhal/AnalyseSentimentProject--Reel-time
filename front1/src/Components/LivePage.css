@@ -1,0 +1,71 @@
+
+/* Style global pour le corps */
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  /* Conteneur principal */
+
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #1b3cc0;
+    color: white;
+    font-weight: bold;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table td {
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  }
+/* Animation pour survol */
+table tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+    
+
+  .charts {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .chart {
+    width: 40%;
+  }

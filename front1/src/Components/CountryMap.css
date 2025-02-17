@@ -1,0 +1,14 @@
+/* Position the legend to the right */
+.leaflet-control { 
+    z-index: 999; 
+  }
+  
+  .info.legend {
+    position: absolute;
+    top: -40px;
+    right: -5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }  
