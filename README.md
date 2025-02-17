@@ -75,19 +75,19 @@ Ce module appliquera des modèles d'apprentissage profond pour améliorer la cla
 ### **4. Évaluation du Modèle**  
 - Mesure des performances via des métriques comme **l’exactitude, la précision et le rappel**.  
 - Optimisation du modèle avec des techniques comme le **dropout, la batch normalization** et des architectures avancées.  
-III.
+
 ### **5 Traitement big data :
-L'application devra être capable de gérer de grandes quantités de données en temps réel ou en traitement par lots. Les données peuvent provenir de sources multiples (e.g. logs, flux en temps réel, ensembles massifs de données) et être transformées pour alimenter le système de deep learning.
+- L'application devra être capable de gérer de grandes quantités de données en temps réel ou en traitement par lots. Les données peuvent provenir de sources multiples (e.g. logs, flux en temps réel, ensembles massifs de données) et être transformées pour alimenter le système de deep learning.
 
-D. Interface web en JavaScript :
-Une interface utilisateur interactive sera développée avec une des technologies JS (Angular) pour visualiser les résultats des analyses ou interagir avec le système (par exemple, soumission de requêtes ou visualisation des prédictions).
-Le but est de créer un tableau de bord qui va faciliter la lecture et la compréhension des résultats obtenus des sections du big data et de deep learning.
-L’utilisateur peut voir en temps réel le nombre de mentions d’un produit (qui peut préciser lui-même) en utilisant un graph en fonction de temps ainsi que la prédiction des sentiments à propos de ces nouvelles mentions (toujours en temps réel).
-L’utilisateur va avoir une section où il peut choisir la plate-forme où il veut récupérer les données (ex: Twitter, Instagram, YouTube …) ensuite afficher l'état de l'entraînement et à la fin afficher les résultats en affichant les pourcentages pour chaque sentiment ainsi que pourcentage des mentions pour chaque pays (utilisation d’une carte géographique)-si cette information existe.
-L’utilisateur peut donner une base de données spécifique (Excel, CSV, DAT …), entraîner ces données et ensuite afficher les résultats dans un tableau de bord (les pourcentages en fonction du sexe, d’âge, de pays, etc.).
-Vous pouvez utiliser la librairie D3.js pour la création des visualisations.
+#### D. Interface web en JavaScript :
+- Une interface utilisateur interactive sera développée avec une des technologies JS (Angular) pour visualiser les résultats des analyses ou interagir avec le système (par exemple, soumission de requêtes ou visualisation des prédictions).
+- Le but est de créer un tableau de bord qui va faciliter la lecture et la compréhension des résultats obtenus des sections du big data et de deep learning.
+- L’utilisateur peut voir en temps réel le nombre de mentions d’un produit (qui peut préciser lui-même) en utilisant un graph en fonction de temps ainsi que la prédiction des sentiments à propos de ces nouvelles mentions (toujours en temps réel).
+- L’utilisateur va avoir une section où il peut choisir la plate-forme où il veut récupérer les données (ex: Twitter, Instagram, YouTube …) ensuite afficher l'état de l'entraînement et à la fin afficher les - --- résultats en affichant les pourcentages pour chaque sentiment ainsi que pourcentage des mentions pour chaque pays (utilisation d’une carte géographique)-si cette information existe.
+- L’utilisateur peut donner une base de données spécifique (Excel, CSV, DAT …), entraîner ces données et ensuite afficher les résultats dans un tableau de bord (les pourcentages en fonction du sexe, d’âge, de pays, etc.).
+- la librairie D3.js pour la création des visualisations.
 
-D. Exigences fonctionnelles
+#### D. Exigences fonctionnelles
 ● Gestion des données :
 ○ Importation de données massives à partir de fichiers CSV, bases de données SQL/NoSQL, ou sources en ligne.
 ○ Prétraitement et nettoyage des données (ETL– Extract, Transform, Load).
@@ -102,7 +102,7 @@ D. Exigences fonctionnelles
 ○ Développement d'une interface utilisateur pour interagir avec les résultats du modèle (visualisation des prédictions, soumission de nouvelles données, etc.).
 ○ Intégration avec l'API backend pour recevoir les résultats des analyses en temps réel.
 
-E. Exigences non fonctionnelles
+#### E. Exigences non fonctionnelles
 ● Scalabilité : Le système doit être capable de gérer une grande quantité de données et de demandes en parallèle.
 ● Performance : Les traitements doivent être optimisés pour minimiser les temps de réponse, particulièrement pour les tâches de deep learning.
 ● Sécurité : Garantir la protection des données traitées.
@@ -110,7 +110,7 @@ E. Exigences non fonctionnelles
 
 
 
-G. Planning du projet
+#### G. Planning du projet
 ● Semaine 1 : Définition du cas d’usage spécifique et analyse des besoins.
 ● Semaine 2 : Collecte des données et prétraitement (ETL).
 ● Semaine 3-4 : Développement du module de deep learning et entraînement des modèles.
@@ -120,7 +120,7 @@ G. Planning du projet
 ● Semaine 8 : Finalisation des livrables et présentation finale.
 
 
-H. Compétences et outils clés à mobiliser
+#### H. Compétences et outils clés à mobiliser
 ● Big data : Compétences en manipulation et traitement de données massives avec Spark Streaming (ou équivalents) et KAFKA.
 ● Deep learning : Maîtrise des frameworks comme TensorFlow, PyTorch pour la création et l'entraînement de modèles d'apprentissage profond.
 ● Ingénierie des connaissances : Utilisation d’ontologies, de graphes de connaissances et de techniques NLP.
